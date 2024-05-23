@@ -28,8 +28,64 @@ img.loop{
     height: 60px;
     width: 60px;
 }
+.M3 {
+    height: 175px;
+    width: 400px;
+       margin-top: 100px;
+       margin-left: 100px;
+   }
+   .M3D{
+       width: 700px;
+   }
+   a{
+       text-decoration: none;
+    color: whitesmoke;
+   }
+   #M3{
+       margin-left: 140px;
+   }
+   .M3CO{
+    width: 700px;
+}
+#M3CO{
+    margin-left: 50px;
+}
+#M3CS{
+    margin-left: 107px;
+}
+.M3CS{
+    width: 700px;
+}
+.specm3{
+    width: 400px;
+    margin-top: 110px;
+    margin-left: 100px;
+    font-size: 30px;
+}
+.container1{
+    display: flex;
+}
 
+.container2{
+    display: flex;
+}
+.container3{
+    display: flex;
+}.specm3C{
+    width: 400px;
+    margin-top: 110px;
+    margin-left: 100px;
+    font-size: 30px;
+}.specm3CS{
+    width: 400px;
+    margin-top: 110px;
+    margin-left: 100px;
+    font-size: 30px;
+}
 
-
-
-
+.up {
+    position: fixed;
+    right: 20px;
+    bottom: 20px; /* or bottom: 20px; for bottom-right */
+    font-size: 30px;
+}
