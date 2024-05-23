@@ -1,0 +1,35 @@
+
+body {
+    background-image: url('pictures/backround.jpeg');
+    background-size: cover; 
+
+}
+header {
+    background-color: rgb(10, 6, 10);
+    margin: 0;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th{
+    padding-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-size: 25px;
+}
+img {
+    mix-blend-mode: screen;
+    width: 100px;
+    height: 100px;
+}
+img.loop{
+    height: 60px;
+    width: 60px;
+}
+
+
+
+
+
