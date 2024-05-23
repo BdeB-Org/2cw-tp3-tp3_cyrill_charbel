@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: rgb(19, 19, 20);
+    padding: 20px;
+    margin: 0;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+th{
+    padding-right: 50px;
+    font-size: 25px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
