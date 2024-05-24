@@ -134,3 +134,19 @@ img.loop{
     background-color:black;
 
 }
+
+.image-gallery {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 50px; /
+}
+.image-gallery img {
+    width: 400px; 
+    height: auto;
+}
+p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
