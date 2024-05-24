@@ -57,28 +57,31 @@ img.loop{
     width: 700px;
 }
 .specm3{
-    width: 400px;
-    margin-top: 110px;
+    width: 700px;
+    margin-top: 100px;
     margin-left: 100px;
     font-size: 30px;
 }
 .container1{
     display: flex;
+    color: whitesmoke;
 }
 
 .container2{
     display: flex;
+    color: whitesmoke;
 }
 .container3{
     display: flex;
+    color: whitesmoke;
 }.specm3C{
-    width: 400px;
-    margin-top: 110px;
+    width: 700px;
+    margin-top: 100px;
     margin-left: 100px;
     font-size: 30px;
 }.specm3CS{
-    width: 400px;
-    margin-top: 110px;
+    width: 700px;
+    margin-top: 100px;
     margin-left: 100px;
     font-size: 30px;
 }
@@ -88,4 +91,33 @@ img.loop{
     right: 20px;
     bottom: 20px; /* or bottom: 20px; for bottom-right */
     font-size: 30px;
+}
+.M31{
+    height: 175px;
+    width: 400px;
+       margin-top: 100px;
+       margin-left: 100px;
+}
+.M32{
+    height: 175px;
+    width: 400px;
+       margin-top: 100px;
+       margin-left: 100px;
+}
+.M33{
+    height: 175px;
+    width: 400px;
+       margin-top: 100px;
+       margin-left: 100px;
+}
+
+.M36{
+    height: 550px;
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 145px;
+}
+.Back{
+    background-color:black;
+
 }
