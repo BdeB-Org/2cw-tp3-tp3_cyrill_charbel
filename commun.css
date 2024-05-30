@@ -155,6 +155,11 @@ p {
     font-size: 30px;
     text-align: center;
 }
+.bm1 {
+    text-align: center;
+    color: white;
+
+}
 @keyframes animate {
     from {
       opacity: 0;

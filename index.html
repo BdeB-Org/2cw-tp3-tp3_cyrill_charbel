@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,32 +5,46 @@
     <meta charset="UTF-8">
     <link href="commun.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://www.bmw-m.com/etc.clientlibs/settings/wcm/designs/bmwcom/base/resources/ci2020/img/logo-m-light.svg">
+    <link rel="icon"
+        href="https://www.bmw-m.com/etc.clientlibs/settings/wcm/designs/bmwcom/base/resources/ci2020/img/logo-m-light.svg">
+    <script type="text/javascript" src="page.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>BMW Canada</title>
 </head>
 
 <body>
     <header>
         <table>
-            <tr> 
-                <th><a href="index.html"><img href="index.html"src="pictures/logo-m-light.svg"></a> </th>
+            <tr>
+                <th><a href="index.html"><img href="index.html" src="pictures/logo-m-light.svg"></a> </th>
                 <th> <a href="index.html">Home</a></th>
                 <th> <a href="Modeles.html">Modèle</a></th>
-                 <th>Informations</th>
-                 <th>Contact</th>
-                 <th><img class="cart" src="pictures/cart.png"></th>
-                 <th><img class="loop" src="pictures/loop.png"></th>
+                <th>Informations</th>
+                <th>Contact</th>
+                <th><img class="cart" src="pictures/cart.png"></th>
+                <th><img class="loop" src="pictures/loop.png"></th>
             </tr>
         </table>
     </header>
+    <div class="bm1">
+        <h1 id="titre">BMW</h1>
+        <input class="btn btn-success" type="button" onclick="changerCouleur()" value="Changer couleur du titre">
+        <input class="btn btn-info" type="button" onclick="agrandir()" value="Agrandir le titre">
+        <input class="btn btn-danger" type="button" onclick="diminuer()" value="Diminuer le titre">
+        <input class="btn btn-warning" type="button" onclick="effacer()" value="Effacer le titre">
+
+    </div>
     <div class="image-gallery">
         <img src="pictures/1bmw.jpg" alt="BMW 1">
         <img src="pictures/2bmw.jpg" alt="BMW 2">
         <img src="pictures/3bmw.jfif" alt="BMW 3">
     </div>
-    <p>Notre entreprise propose une variété de modèles de voitures BMW, chacun ayant 
-        <br>des caractéristiques uniques et spéciales qui les différencient les uns des autres. </p><br><br><br><br>
-        <p><a href="Modeles.html">En voir plus -></a></p>
+    <p>Notre entreprise propose une variété de modèles de voitures BMW, chacun ayant
+        <br>des caractéristiques uniques et spéciales qui les différencient les uns des autres.
+    </p><br><br><br><br>
+    <p><a href="Modeles.html">En voir plus -></a></p>
 </body>
 <script src="page.js"></script>
+
 </html>
