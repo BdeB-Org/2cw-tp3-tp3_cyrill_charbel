@@ -1,7 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Light background for contrast */
 }
 
 header {
@@ -19,5 +24,9 @@ th{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+
+
+
 
 
