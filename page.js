@@ -17,3 +17,6 @@ function diminuer(){
 function effacer(){
     document.getElementById("titre").innerHTML = ""
 }
+function afficher(){
+    document.getElementById("titre").innerHTML = "BMW"
+}
